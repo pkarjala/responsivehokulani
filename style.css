@@ -1,0 +1,56 @@
+body {
+  padding-top: 0px;  /* Move body of page below navbar. */
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  background-color: #fff;
+}
+
+.banner {
+  background-image: url("banner.jpeg");
+  background-size: cover;
+  height: 200px;
+}
+
+.navbar {
+  background-color: rgb(52, 135, 241);
+}
+
+.navbar-nav>li>a {
+  font-size: 16px;
+  color: rgb(247, 220, 75);
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+  background-color: rgb(52, 150, 241);
+}
+
+.well {
+  background-color: rgb(52, 135, 241);
+  border: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.excellence {
+  background-image: url('excellence.jpeg');
+  height: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(247, 220, 75);
+}
